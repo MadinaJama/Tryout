@@ -68,8 +68,6 @@ p{
 
 .nav{
     display: flex;
-
-    
 }
 
 .Logo{
@@ -92,6 +90,7 @@ p{
     justify-content: space-between;
     align-items: center;
     padding-left: 400px;
+    width: 100%;
 }
 
 .nav__img{
@@ -216,3 +215,79 @@ p{
     padding: 80px;
 }
 
+.features__title{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.features__text{
+    width: 100%;
+    letter-spacing: 0.025em;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.features__para{
+    font-size: 18px;
+    margin: 16px 0 0;
+    color: #7C8BA1;
+    width: 100%;
+    text-align: center;
+    max-width: 36rem;
+    font-weight: bolder;
+    line-height: 1.625;
+    margin-top: 1rem;
+}
+
+/*SERVICES*/
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.service{
+    display: flex;
+    width: calc(100%/3);
+    align-items: flex-start;
+    flex-direction: row;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.service-img__container{
+    flex-shrink: 0;
+    border: 1px solid lightgray;
+    border-radius: 9999px;
+    padding: 20px;
+    text-align: center;
+}
+
+.service__img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.service__description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.service__title{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 1;
+    letter-spacing: 0.025em;
+}
+
+.service__para{
+    margin-top: 1rem;
+    font-weight: bold;
+    line-height: 2;
+
+}
