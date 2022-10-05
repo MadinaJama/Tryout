@@ -66,6 +66,16 @@ p{
 
 /*NAVIGATION*/
 
+#navbar{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav{
     display: flex;
 }
@@ -289,5 +299,19 @@ p{
     margin-top: 1rem;
     font-weight: bold;
     line-height: 2;
+
+}
+
+/* 
+
+DESIGN
+
+*/
+
+.design{
+    padding: 96px 0;
+}
+
+.design__containers{
 
 }
